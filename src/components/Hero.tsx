@@ -1,4 +1,4 @@
-import { Mail, Github, Instagram } from 'lucide-react';
+import { Mail, Github, Linkedin } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
@@ -103,9 +103,9 @@ const Hero = () => {
             </Button>
             
             <Button variant="outline" size="lg" className="space-x-2 bg-white/80 hover:bg-white" asChild>
-              <a href="https://instagram.com/keenshrin_travel" target="_blank" rel="noopener noreferrer">
-                <Instagram size={20} />
-                <span>Instagram</span>
+              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+                <Linkedin size={20} />
+                <span>LinkedIn</span>
               </a>
             </Button>
           </div>

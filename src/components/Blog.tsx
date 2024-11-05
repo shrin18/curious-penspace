@@ -31,6 +31,15 @@ const Blog = () => {
         <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">
           Latest Travel Posts
         </h2>
+        
+        <div className="mb-8">
+          <img
+            src="https://images.unsplash.com/photo-1501854140801-50d01698950b"
+            alt="Europe Map"
+            className="w-full max-w-4xl mx-auto rounded-lg shadow-lg"
+          />
+        </div>
+
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {blogPosts.map((post, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
